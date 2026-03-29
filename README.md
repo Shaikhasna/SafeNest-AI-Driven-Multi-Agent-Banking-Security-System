@@ -1,10 +1,16 @@
-# 🏦 SafeNest — AI-Driven Multi-Agent Banking Security System
+# 🏦 SafeNest — Multi-Agent AI System for Fraud Detection
 
 Designed as a **research-oriented AI system** combining anomaly detection, behavioral intelligence, and explainable AI for real-world fraud detection.
 
 ---
+## Results
+- ROC-AUC: ~0.95
+- Dataset: 284K transactions
+- Handles highly imbalanced fraud detection scenarios
 
-# Key Highlights
+---
+
+# System Overview
 
 * 🧠 Multi-Agent AI Architecture
 * 📊 Behavioral Risk Modeling
@@ -24,13 +30,6 @@ Designed as a **research-oriented AI system** combining anomaly detection, behav
 
 ---
 
-# 📊 Key Results
-
-* ROC-AUC Score: **~0.95**
-* Behavioral modeling improves fraud detection performance
-* Isolation Forest outperforms LOF & One-Class SVM
-
----
 
 # 🏗️ System Architecture
 
