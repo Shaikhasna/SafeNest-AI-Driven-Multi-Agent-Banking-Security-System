@@ -88,6 +88,8 @@ Risk = (Anomaly Score × 50) + (Behavior Deviation × 30)
 
 👉 Isolation Forest performs best for imbalanced fraud detection.
 
+> Note: Due to the extreme class imbalance (~0.17% fraud cases), precision/recall and F1 scores appear low for certain models. ROC-AUC is a more appropriate metric in this setting as it evaluates ranking performance across thresholds.
+
 ---
 
 ## 📈 ROC Curve
